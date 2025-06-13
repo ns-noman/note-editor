@@ -54,8 +54,8 @@ database/migrations
 <h2>⚙️ Installation</h2>
 <ol>
   <li>Clone the repository:
-    <pre>git clone https://github.com/your-username/ai-note-editor.git
-cd ai-note-editor</pre>
+    <pre>git clone https://github.com/your-username/note-editor.git
+cd note-editor</pre>
   </li>
   <li>Install dependencies:
     <pre>composer install
