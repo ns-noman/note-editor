@@ -156,7 +156,7 @@ export default function Dashboard() {
           </div>
 
           {/* Editor */}
-          <div className="w-3/4 h-full p-2 overflow-y-auto bg-white dark:bg-red-900 rounded-xl border border-sidebar-border/70 dark:border-sidebar-border space-y-0">
+          <div className="w-3/4 h-full p-2 overflow-y-auto bg-white dark:bg-gray-900 rounded-xl border border-sidebar-border/70 dark:border-sidebar-border space-y-0">
             <input
               type="text"
               value={title}
