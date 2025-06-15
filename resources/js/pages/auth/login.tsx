@@ -118,12 +118,6 @@ export default function Login({ status, canResetPassword }: LoginProps) {
                         </svg>
                         Log in with Google
                     </a>
-
-
-
-                    {/* <TextLink href={route('google_login')} tabIndex={5}>
-                        Log In with google
-                    </TextLink> */}
                 </div>
 
                 <div className="text-center text-sm text-muted-foreground">

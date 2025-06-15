@@ -9,7 +9,7 @@ use App\Http\Controllers\NoteListController;
 use App\Http\Controllers\AuthSocial\GoogleController;
 
 Route::get('/', function () {
-    return Inertia::render('auth/login');
+    return redirect()->route('login');
 })->name('home');
 
 Route::middleware(['auth', 'verified'])->group(function () {
